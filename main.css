@@ -1,0 +1,143 @@
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    overflow:auto;
+    margin:10px;
+    scroll-behavior:smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+     text-align:center;
+     height:200px;
+     width:100%;
+     max-width:100%;
+     overflow:hidden;
+     background-color:#e8e8e8;
+     box-shadow:.5px 1px 1px 1px #96948c;
+     margin-bottom: 50px;
+     position: relative;
+}
+.top_menu{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 17px;
+}
+
+.top_menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.top_menu a:hover{
+    border-bottom: 1px solid #000;
+}
+
+}
+.monthly_sale , .todays_sale {
+     max-width:100%;
+     height:200px;
+     margin:50px 15px;
+     position:relative;}
+
+.todays_sale{
+    margin-bottom: 50px;
+}
+.month_header , .todays_header , .stock {
+    text-align:center;
+    font-weight:bold;
+    background-color:#e8e8e8;
+    border: 1px solid #ccc9bd;
+    font-size:25px;
+    height:50px;
+    width:30%;
+    margin: 100px auto;
+    margin-bottom:10px;
+    padding:10px;
+   
+}
+
+.common:hover{
+   box-shadow: 3px 3px 10px rgb(110, 105, 105) , 3px 3px 15px rgb(110, 105, 105);
+}
+
+.opening, .total, .due-sale, .due-col, .expense, .cash-in, .cash-out, .closing{
+     height:70px;
+     width:10.5%;
+     background-color:#e8e8e8;
+     box-shadow:.3px 1px 1px 1px #96948c;
+     padding:5px;
+     text-align:center;
+     margin:5px;
+     overflow:hidden;
+     position:relative;
+     display:inline-block;
+}
+
+
+
+table {
+     border-collapse:collapse;
+      width:100%
+}
+
+td , th {
+     border:1px solid #dddddd;
+     text-align:center;
+     padding:8px;
+}
+
+footer {
+    text-align:center;
+    height:25%;
+    width:100%;
+    max-width:100%;
+    overflow:hidden;
+    background-color:#e8e8e8;
+    margin-top:15px;
+    padding-top:20px;
+}
+
+.entry_data{
+    margin: auto;
+    height: auto;
+    width:600px;
+    background-color: #e8e8e8;
+    padding: 50px;
+    border: 1px solid rgb(160, 153, 153);
+}
+
+.entry_data form{
+    display: flex;
+}
+
+.entry_data .form_header{
+    text-align: center;
+}
+
+.entry_data label{
+    font-weight: 700;
+}
+
+.form_div1 , .form_div2{
+    margin: 20px;
+}
+
+.entry_data input[type="number"]{
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    width: 220px;
+    font-size: 15px;
+}
+
+.entry_data input[type="submit"]{
+    float: right;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
